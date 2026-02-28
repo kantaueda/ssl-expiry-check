@@ -20,3 +20,12 @@
 ## Usage
 ```powershell
 python .\ssl_expiry_check.py .\targets.txt --warn-days 30
+
+```
+## Example Output
+
+```text
+HOST                           DAYS_LEFT  STATUS  EXPIRES_UTC / ERROR
+------------------------------------------------------------------------------------------
+google.com                            58  OK     2026-04-27T08:36:41+00:00
+example.com                           75  OK     2026-05-14T18:57:50+00:00
