@@ -1,0 +1,3 @@
+# 1行に1ドメイン（コメント可）
+google.com
+example.com
